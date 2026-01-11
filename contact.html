@@ -1,0 +1,68 @@
+<!-- Project 2 - Personal Portfolio - Web Programming - Kaylin Francisco -->
+<!-- This is the third page: Contact page -->
+<!DOCTYPE html>
+<html lang="en">
+    <!-- head of file  -->
+    <head>
+        <title> Contact Me Page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <!-- main body of webpage -->
+     <center>
+    <body bgcolor="#dbc2bf" text="black">
+        <!-- header for webpage -->
+        <h1>- Contact Me -</h1> 
+            <table border="3" bgcolor="white" bordercolor="black" width="600">
+                <tr>
+                    <td bgcolor="white" align="center" border="4">
+                        <!-- top header for page in main table -->
+                        <h2>&nbsp;If you'd like to contact me:&nbsp;</h2>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="left">
+                        <!-- making submit button send an email to myself -->
+                        <form action="mailto:kaylinfrancisco@gmail.com?subject=Portfolio Contact" method="get" enctype="text/plain">
+                            
+                            <br>
+                            <!-- loading input for user -->
+                            &nbsp;&nbsp;<label>First Name:</label>
+                            &nbsp;&nbsp;<input type="text" name="FirstName"><br><br>
+
+                            &nbsp;&nbsp;<label>Last Name:</label>
+                            &nbsp;&nbsp;<input type="text" name="LastName"><br><br>
+
+                            &nbsp;&nbsp;<label>Email:</label>
+                            &nbsp;&nbsp;<input type="email" name="Email"><br><br>
+                            
+                            &nbsp;&nbsp;<label>Phone Number:</label>
+                            &nbsp;&nbsp;<input type="tel" name="Phone" placeholder="123-456-7890"><br><br>
+
+                            &nbsp;&nbsp;<label>Message:</label><br>
+                            &nbsp;&nbsp;<textarea name="Message" rows="4" cols="68"></textarea><br><br>
+
+                            &nbsp;&nbsp;<input type="submit" value="Send Email">
+
+                            <!-- Note: when I click submit it opens up my email successfully but does -->
+                            <!-- not auto-fill with the form information. I could not figure out another way to get it to auto-fill -->
+                            <br><br>
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <!-- navigation for web page -->
+                    <td align="center" colspan="2">
+                        <h3>Check Out My Other Pages Here:</h3> 
+                        <a href="index.html" >Home page</a> &nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="about.html">About page</a> &nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="contact.html">Contact page</a> &nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="travel.html">Travel page</a> &nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="resume.html">Resume page</a> 
+                        <br><br>
+                    </td>
+                </tr>
+            </table>
+    </body>
+    </center>
+</html>
